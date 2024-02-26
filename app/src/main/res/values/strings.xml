@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ruoxuan Li - Personal Expence Tracker App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="expences">Expenses</string>
+    <string name="addNewExpences">Add New Expenses</string>
+    <string name="enterAmount">Enter Amount</string>
+    <string name="selectCategory">Select Category</string>
+    <string name="expenceDate">Date</string>
+    <string name="saveExpenses">Save Expenses</string>
+    <string name="updateExpences">Update Expense</string>
+    <string name="expensesUpdated">Expenses Updated Successfully</string>
+    <string name="expneseSaved">Expense Saved Successfully</string>
+    <string name="filterByDate">Filter By Date</string>
+    <string name="seleetcDate">Select Date</string>
+    <string name="filterByCategory">Filter By Category</string>
+    <string name="clearFilter">Clear Filter</string>
+</resources>

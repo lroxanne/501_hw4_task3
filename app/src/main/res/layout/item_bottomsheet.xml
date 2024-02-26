@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/whtie_bg"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/close_line"/>
+        <TextView
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textAlignment="center"
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="@string/filterByDate"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:id="@+id/expensesDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext_bg"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:inputType="phone"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/seleetcDate"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textAlignment="center"
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="@string/filterByCategory"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:fontFamily="@font/regular"
+            android:text="@string/selectCategory"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/edittext_bg"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/categorySpinner"
+                style="@style/Widget.AppCompat.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edittext_bg"
+                android:dropDownWidth="wrap_content"
+                android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+                android:popupBackground="@android:color/white"
+                android:stateListAnimator="@drawable/spinner_sla" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="-35dp"
+                android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/clearFilter"
+             android:textAlignment="center"
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="@string/clearFilter"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

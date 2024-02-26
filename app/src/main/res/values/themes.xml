@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PersonalExpenceTrackerApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/main_color</item>
+    </style>
+
+    <style name="Theme.PersonalExpenceTrackerApp" parent="Base.Theme.PersonalExpenceTrackerApp" />
+
+
+    <style name="FullWidthBottomSheetDialog" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/BottomSheetAnimation</item>
+    </style>
+
+    <style name="BottomSheetAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>
